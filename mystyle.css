@@ -1,2 +1,3 @@
 h1 {color:blue;}
 th,td{border:dashed thick black;}
+th.important{color:red;}

@@ -8,3 +8,10 @@ function taro65(){
 function hanako65()
  who65 '花子';
 }
+
+function taro65(){
+ alert('太郎が来た');
+}
+function hanako65(){
+ alert('花子が来た');
+}

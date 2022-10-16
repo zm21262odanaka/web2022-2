@@ -5,7 +5,7 @@ function sayhello65(){
 function taro65(){who65 ='太郎';
 }
  
-function hanako65(){who65 '花子';
+function hanako65(){who65='花子';
 }
  
 

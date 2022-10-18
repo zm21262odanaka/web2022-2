@@ -5,6 +5,7 @@ function sayhello67(){
 
 function someone(x){
   who67=x;
+}
 
   
   

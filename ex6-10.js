@@ -1,3 +1,3 @@
 function imgchange2(){
-  document.getElementById('logo').src = ./image/bubon.gif;
+  document.getElementById('denki').'<src =" ./image/bubon.gif">';
 }

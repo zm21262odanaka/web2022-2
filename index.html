@@ -8,6 +8,8 @@
   <title> Web開発の練習2</title>
   <link rel="stylesheet" href="mystyle.css">
   <link rel="stylesheet" href="imagechange.css">
+ 
+ 
   <script src="myjs.js"></script> <!--この行を追加-->
   <script src="ex6-1.js"></script>
   <script src="ex6-5.js"></script>
@@ -129,12 +131,21 @@
 <form> <input type="button" value="Timer" onclick="setTimeout('mes()',3000)">
 </form>
 
-<h1>練習問題6.13　タイマーイベントによる実行</h1>
- <form name="timer13">
- <input type="button" value="スタート" onclick="hyouji13()">
- <br>
- <input type="text" name="moji13" size="30" value="">
-  </form> 
+<h1>練習問題6.13 タイマーによるイベント実行</h1>
+<form name="timer13">
+<input type="button" value="スタート" onclick="hyoji13()">
+<br>
+<input type="text" name="moji13" size="30" value="">
+</form>
+ 
+<h1>練習問題6.14 タイマーによるイベント実行</h1>
+<form>
+<input type="button" value="画像の変更" onclick="imgchange5();setTimeout('imgchange6()',3000)">
+</form>
+<img src='./image/logo.png' id="logo1" alt="" class="imagechange7">
+ 
+<h1>練習問題7.1 テキスト入力の練習</h1>
+
  
 </body>
 </html>

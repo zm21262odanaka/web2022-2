@@ -9,9 +9,9 @@ var cnt13 = document.timer13.moji13.value.length;
 if ( cnt13 < 11 ){
 
 //現在より１文字多く切り出して表示
-document.timer13.moji13.value = str13.substr(0,cnt13+1);}
+document.timer13.moji13.value = str13.substr(0,cnt13+1);}else{
 
-else{
+
 //全て表示されたら、空文字に戻す  
 document.timer13.moji13.value = "";}
 

@@ -1,6 +1,7 @@
 function add(){
- var x = document.getElementById('inout1').value;
- var y = document.getElementById('input2').value;
- var z = document.getElementById('input3').value;
- alert(Number(x)/(Number(y)*Number(z)));
+ var x = document.getElementById('inout3').value;
+ var y = document.getElementById('input4').value;
+ alert(Number(y)/Number(x*x)*10000);
 }
+
+ 

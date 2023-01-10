@@ -1,9 +1,9 @@
-
-function imgchange1(){
- document.getElementById('logo').src=
-'./image/bulbon.gif';
+function imgchange1() 
+{
+document.getElementById('logo').src='./image/bulbon.gif';
 }
-function imgchange2(){
- document.getElementById('logo').src=
-'./image/bulboff.gif';
+
+function imgchange2()
+{
+document.getElementById('logo').src='./image/bulbonoff.gif';
 }

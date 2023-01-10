@@ -5,5 +5,5 @@ document.getElementById('logo').src='./image/bulbon.gif.';
 
 function imgchange2()
 {
-document.getElementById('logo').src='./image/bulbonoff.gif';
+document.getElementById('logo').src='./image/bulbon.gif.';
 }

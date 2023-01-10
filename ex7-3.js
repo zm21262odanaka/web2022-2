@@ -1,7 +1,7 @@
-function add(){
- var x = document.getElementById('inout3').value;
- var y = document.getElementById('input4').value;
- alert(Number(y)/Number(x*x)*10000);
+function add2(){
+ var x = document.getElementById('shincho').value;
+ var y = document.getElementById('taiju').value;
+ alert(x/(y*y));
 }
 
  

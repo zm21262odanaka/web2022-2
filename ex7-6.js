@@ -1,5 +1,5 @@
-function nazo２() {
-if (document.getElementById('answer2').value!=='夢') {
+function nazo３() {
+if (document.getElementById('answer３').value!=='夢') {
  alert('はずれ!');
 }
 else {

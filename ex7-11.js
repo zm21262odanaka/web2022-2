@@ -1,15 +1,15 @@
 function add4(){
-  var a=document.getElementById('nen1').value;
-  var b=Number(a)%Number('4');
-  var c=Number(a)%Number('100');
-  var d=Number(a)%Number('400');
-  if(c==0&&d!=0){
-    alert=('平年');
+var x =document.getElementById('nen4').value;
+var z=Number(x)%Number('4');
+var a=Number(x)%Number('100');
+var b=Number(x)%Number('400');
+if(a==0&&b!=0){
+ alert('平年');
 }
-    else if(b==0){
-    alert('うるう年');
+else if(z==0){
+ alert('うるう年');
 }
-else ('平年')；
+else{
+ alert('平年');
+ }
 }
-}
-  
